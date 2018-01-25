@@ -74,3 +74,34 @@ new Response(body, init)                        Response
   - `statusText`: The status message associated with the status code, e.g., `OK`.
   - `headers`: Any headers you want to add to your response, contained within a [`Headers`](https://developer.mozilla.org/en-US/docs/Web/API/Headers) object or object literal of [`ByteString`](https://developer.mozilla.org/en-US/docs/Web/API/ByteString) key/value pairs (see [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for a reference).
 
+
+
+
+
+## Response()
+```
+new Response(body, init)                        Response
+```
+创建一个新的Response 实例对象。
+
+<table>
+  <tr>
+    <td>body </td>
+    <td> 配置参数对象
+      <ul><li>只读</li></ul>
+    </td>
+     <td> Object
+      <ul>
+        <li>[`Blob`](#)</li>
+        <li>[`BufferSource`](#)</li>
+        <li> [`FormData`](#)</li>
+        <li>[`ReadableStream`](#)</li>
+        <li>[`URLSearchParams`](#)</li>
+        <li>[`USVString`](#)<li>
+       </ul>
+    </td>
+     
+  </tr>
+</table>
+
+
