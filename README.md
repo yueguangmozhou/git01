@@ -80,17 +80,16 @@ new Response(body, init)                        Response
 
 ## Response()
 ```
-new Response(body, init)                        Response
+new Response(body, init)                                                        Response
 ```
-> 创建一个新的Response 实例对象。
-
+创建一个新的Response 实例对象。
 <table style='width:100%;'>
   <tr>
-    <td style='width:10%;'>body </td>
-    <td style='width:60%;'> 配置参数对象
+    <td >body </td>
+    <td > 配置参数对象
       <ul><li>只读</li></ul>
     </td>
-     <td style='width:30%;'> Object
+     <td> Object
       <ul>
         <li>[`Blob`](#)</li>
         <li>[`BufferSource`](#)</li>
@@ -100,8 +99,20 @@ new Response(body, init)                        Response
         <li>[`USVString`](#)<li>
        </ul>
     </td>
-     
   </tr>
+  <tr>
+    <td style='width:10%;'>init </td>
+    <td style='width:60%;'> 配置参数对象
+      <ul><li>只读</li></ul>
+    </td>
+     <td style='width:30%;'> Object
+      <ul>
+        <li>[`status`](#): number  -  The status code for the reponse, e.g., `200`.</li>
+        <li>[`statusText`](#): string  - The status message associated with the status code, e.g., `OK`.</li>
+       </ul>
+    </td>
+  </tr>
+  
 </table>
 
 
