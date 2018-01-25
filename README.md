@@ -82,15 +82,15 @@ new Response(body, init)                        Response
 ```
 new Response(body, init)                        Response
 ```
-创建一个新的Response 实例对象。
+> 创建一个新的Response 实例对象。
 
 <table style='width:100%;'>
   <tr>
-    <td>body </td>
-    <td> 配置参数对象
+    <td style='width:10%;'>body </td>
+    <td style='width:60%;'> 配置参数对象
       <ul><li>只读</li></ul>
     </td>
-     <td> Object
+     <td style='width:30%;'> Object
       <ul>
         <li>[`Blob`](#)</li>
         <li>[`BufferSource`](#)</li>
