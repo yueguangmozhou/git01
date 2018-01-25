@@ -84,7 +84,7 @@ new Response(body, init)                        Response
 ```
 创建一个新的Response 实例对象。
 
-<table>
+<table style='width:100%;'>
   <tr>
     <td>body </td>
     <td> 配置参数对象
