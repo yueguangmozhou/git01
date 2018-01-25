@@ -107,8 +107,8 @@ new Response(body, init)                                                        
     </td>
      <td style='width:30%;'> Object
       <ul>
-        <li>[`status`](#): number  -  The status code for the reponse, e.g., `200`.</li>
-        <li>[`statusText`](#): string  - The status message associated with the status code, e.g., `OK`.</li>
+        <li><a href='#'>status</a>: number  -  The status code for the reponse, e.g., `200`.</li>
+        <li><a href='#'>statusText</a>: string  - The status message associated with the status code, e.g., `OK`.</li>
        </ul>
     </td>
   </tr>
